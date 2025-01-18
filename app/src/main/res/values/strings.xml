@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Banking-app-java</string>
+    <string name="welcome_value">WELCOME TO YOUR FAVOURITE BANKING APP</string>
+    <string name="pleaseLogin_value">"PLEASE LOGIN "</string>
+    <string name="login_btn_value">LOGIN</string>
+    <string name="transfert_choice_btn">Transfert</string>
+    <string name="withdraw_choice_btn">WITHDRAW</string>
+    <string name="deposit_choice_btn">DEPOSIT</string>
+    <string name="balance_choice_btn">SEE YOUR BALANCE</string>
+    <string name="transactions_choice_btn">See The List of Transactions</string>
+    <string name="exit_btn">EXIT</string>
+    <string name="choicetextview_value">CHOOSE YOUR TRANSACTION</string>
+    <string name="register_value">REGISTRATION</string>
+    <string name="agree_checkBox_value">I agree to the terms and conditions</string>
+    <string name="register_btn_value">REGISTER</string>
+    <string name="transfer_btn_val">TRANSFERT</string>
+    <string name="recipient_account_hint_val">Give The recipient account number</string>
+    <string name="deposit_btn_value">DEPOSIT</string>
+    <string name="withdraw_btn_val">WITHDRAW</string>
+    <string name="back_btn">Go Back</string>
+</resources>
