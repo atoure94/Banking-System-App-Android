@@ -18,13 +18,19 @@
             android:id="@+id/welcome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/welcome_value" />
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="@string/welcome_value"
+            android:textColor="@color/purple_700"
+            android:textSize="48sp" />
 
         <TextView
             android:id="@+id/pleaseLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pleaseLogin_value" />
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="@string/pleaseLogin_value"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/username_lab"

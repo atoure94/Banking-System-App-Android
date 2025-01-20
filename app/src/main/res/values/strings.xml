@@ -18,4 +18,8 @@
     <string name="deposit_btn_value">DEPOSIT</string>
     <string name="withdraw_btn_val">WITHDRAW</string>
     <string name="back_btn">Go Back</string>
+    <string name="transfert_textview_value">TRANSFERT</string>
+    <string name="withdraw_textview_value">WITHDRAW</string>
+    <string name="balance_title_value">BALANCE</string>
+    <string name="deposit_textview">DEPOSIT</string>
 </resources>

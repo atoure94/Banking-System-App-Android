@@ -15,10 +15,13 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/transfert_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="@string/transfert_textview_value"
+            android:textColor="@color/purple_700"
+            android:textSize="48sp" />
 
         <EditText
             android:id="@+id/recipient_account"

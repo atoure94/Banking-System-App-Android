@@ -15,10 +15,13 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/deposit_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="@string/deposit_textview"
+            android:textColor="@color/purple_700"
+            android:textSize="48sp" />
 
         <EditText
             android:id="@+id/deposit_code"

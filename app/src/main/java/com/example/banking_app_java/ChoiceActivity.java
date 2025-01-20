@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,9 +27,13 @@ public class ChoiceActivity extends AppCompatActivity {
         transferButton = findViewById(R.id.transfert_choice_btn);
         transactionsButton = findViewById(R.id.transactions_choice_btn);
         exitButton = findViewById(R.id.exit_btn);
+        TextView title= findViewById(R.id.choice_textview);
+
 
         // Récupérer le nom d'utilisateur à partir de l'Intent
         currentUsername = getIntent().getStringExtra("username");
+
+        title.setText("WELCOME " + "(" + currentUsername + ")" + " CHOOSE YOUR TRANSACTION");
 
         balanceButton.setOnClickListener(v -> openActivity(BalanceActivity.class));
         depositButton.setOnClickListener(v -> openActivity(DepositActivity.class));
